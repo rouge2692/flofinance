@@ -1,0 +1,6 @@
+##### FloFinance Web Root
+
+# Environemnt Files
+.env
+.env.*
+**/vite-env.d.ts
