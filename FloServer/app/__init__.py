@@ -17,7 +17,6 @@ from flask_login import (
 )
 from werkzeug.security import generate_password_hash, check_password_hash
 
-
 # Data Processing Imports
 import pandas as pd
 import random
@@ -92,14 +91,14 @@ class User(UserMixin):
 
     def to_dict(self):
         return {
-            "SP00D1006": self.id,
-            "SP00D1002": self.email,
-            "SP00D1001": self.name,
-            "SP00D1004": self.phone,
-            "SP00D1017": self.picture,
-            "SP00D1005": self.cryp_pass,
-            "SP00D1018": self.google_sub,
-            "SP00D1019": self.accountStatus,
+            "FLOXXD1001": self.id,
+            "FLOXXD1002": self.name,
+            "FLOXXD1003": self.email,
+            "FLOXXD1004": self.phone,
+            "FLOXXD1005": self.cryp_pass,
+            "FLOXXD1006": self.picture,
+            "FLOXXD1007": self.google_sub,
+            "FLOXXD1008": self.accountStatus,
         }
 
     # helpers
