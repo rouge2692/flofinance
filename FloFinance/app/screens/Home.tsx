@@ -2,7 +2,12 @@ import {
   SafeAreaProvider,
   useSafeAreaInsets,
 } from 'react-native-safe-area-context';
+
+// UI Components
 import { View, Text } from 'react-native';
+
+// Components
+import SavingsHealthCard from '../components/test';
 
 function Home() {
   const safeAreaInsets = useSafeAreaInsets();
@@ -16,6 +21,7 @@ function Home() {
       }}
     >
       <Text>Home</Text>
+      <SavingsHealthCard />
     </View>
   );
 }
